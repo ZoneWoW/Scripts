@@ -3,7 +3,7 @@
 #include "Language.h"
 #include <string>
  
-class System_Censure : public PlayerScript
+/*class System_Censure : public PlayerScript
 {
 public:
 		System_Censure() : PlayerScript("System_Censure") {}
@@ -16,7 +16,7 @@ public:
 		void OnChat(Player* player, uint32 /*type*/, uint32 lang, std::string& msg, Player* receiver)
 		{
 				CheckMessage(player, msg, lang, receiver, NULL, NULL, NULL);
-		}
+		}*/
  
 		void OnChat(Player* player, uint32 /*type*/, uint32 lang, std::string& msg, Group* group)
 		{
